@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask #
 from routes import handle_index_request  # Імпорт функції для обробки запитів
 
 app = Flask(__name__)  # Створення екземпляра Flask додатка
